@@ -58,10 +58,10 @@
     "verify:ts": "tsc --noEmit"
   },
   "optionalDependencies": {
-    "fs-xattr": "0.3.0"
+    "fs-xattr": "0.3.1"
   },
   "dependencies": {
-    "@journeyapps/sqlcipher": "https://github.com/scottnonnenberg-signal/node-sqlcipher.git#b10f232fac62ba7f8775c9e086bb5558fe7d948b",
+    "@journeyapps/sqlcipher": "4.1.0",
     "@sindresorhus/is": "0.8.0",
     "array-move": "2.2.1",
     "backbone": "1.4.0",
