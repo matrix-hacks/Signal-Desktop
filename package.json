@@ -138,7 +138,7 @@
     "typeface-inter": "3.12.0",
     "underscore": "1.10.2",
     "uuid": "7.0.3",
-    "websocket": "1.0.31",
+    "websocket": "1.0.31"
   },
   "resolutions": {
     "fbjs/isomorphic-fetch/node-fetch": "https://github.com/scottnonnenberg-signal/node-fetch.git#3e5f51e08c647ee5f20c43b15cf2d352d61c36b4"
