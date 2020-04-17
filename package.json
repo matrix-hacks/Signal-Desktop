@@ -76,6 +76,7 @@
     "draft-js": "0.10.5",
     "electron-mocha": "8.2.1",
     "electron-notarize": "0.3.0",
+    "electron-is-dev": "0.3.0",
     "emoji-datasource": "5.0.1",
     "emoji-datasource-apple": "5.0.1",
     "emoji-regex": "9.0.0",
