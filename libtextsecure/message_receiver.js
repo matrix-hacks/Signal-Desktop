@@ -11,7 +11,7 @@
 /* global GroupBuffer: false */
 
 /* eslint-disable more/no-then */
-
+window.PQueue = require('p-queue').default;
 const RETRY_TIMEOUT = 2 * 60 * 1000;
 
 function MessageReceiver(
