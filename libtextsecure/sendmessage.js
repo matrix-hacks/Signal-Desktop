@@ -1,6 +1,6 @@
 // eslint-disable-next-line max-len
 /* global _, textsecure, WebAPI, libsignal, OutgoingMessage, window, dcodeIO, ConversationController */
-
+window.PQueue = require('p-queue').default;
 /* eslint-disable more/no-then, no-bitwise */
 
 function stringToArrayBuffer(str) {
