@@ -11,6 +11,7 @@
   ConversationController
 */
 
+window.PQueue = require('p-queue').default;
 /* eslint-disable more/no-then */
 
 // eslint-disable-next-line func-names
