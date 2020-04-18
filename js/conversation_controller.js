@@ -2,6 +2,13 @@
 
 /* eslint-disable more/no-then */
 
+  window.isValidGuid = maybeGuid =>
+    /^[0-9A-F]{8}-[0-9A-F]{4}-4[0-9A-F]{3}-[89AB][0-9A-F]{3}-[0-9A-F]{12}$/i.test(
+      maybeGuid
+    );
+  // https://stackoverflow.com/a/23299989
+  window.isValidE164 = maybeE164 => /^\+?[1-9]\d{1,14}$/.test(maybeE164);
+
 // eslint-disable-next-line func-names
 (function() {
   'use strict';
