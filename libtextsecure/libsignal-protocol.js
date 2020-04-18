@@ -1,3 +1,6 @@
+window.PQueue = require('p-queue').default;
+
+
 ;(function(){
 var Internal = {};
 window.libsignal = window.libsignal || {};
