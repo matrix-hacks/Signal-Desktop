@@ -247,9 +247,6 @@
     "webpack-cli": "3.3.11",
     "webpack-dev-server": "3.10.3"
   },
-  "engines": {
-    "node": "12.16.2"
-  },
   "build": {
     "appId": "org.whispersystems.signal-desktop",
     "mac": {
